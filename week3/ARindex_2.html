@@ -12,7 +12,7 @@
     <a-scene embedded arjs='trackingMethod: best;'>
 
         <a-marker preset="hiro">
-            <a-entity position="0 -9 0">
+            <a-entity position="0 -9 0" rotation="-45 0 0">
 
                 <a-torus position="-0.76801 3.45504 -4.735" rotation="-31.996828069080824 -31.988233702153863 0.8577178193108425" color="green" radius="1.2" animation="property: components.material.material.color; type: color; from: green; to: red; loop: true; dur: 5000" material="" geometry="radius: 1; radiusTubular: 0.13" visible=""></a-torus>
                 <a-cylinder color="yellow" height="2" radius="0.05" position="-0.87963 1.19302 -4.09682" material="color: #ffca02" geometry="height: 2.73"></a-cylinder>
@@ -22,7 +22,7 @@
                 <a-plane width="9" height="2" position="5.7 5.5 -6.01" material="" geometry="width: 6.3; height: 1.25"></a-plane>
                 <a-text value="Поставте E50, Будь ласка" font="calibri-msdf.json" negate="false" color="#33C3F0" width="10" position="3 5.5 -6" text=""></a-text>
                 <a-plane src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/illustration/758px-Canestra_di_frutta_(Caravaggio).jpg" width="7" height="7" rotation="-90 179.9998479605043 179.9998479605043" position="-0.25367 0.01 -5.96692" color="purple" material="" geometry=""></a-plane>
-                <a-sphere position="1.23 2.00446 -3.669" radius="1.25" color="#EF2D5E" material="color: #010a51; blending: additive; emissive: #022f5a; metalness: 1; metalnessTextureOffset: 1 1; wireframe: true" geometry="radius: 0.5" visible=""></a-sphere>
+                <a-sphere position="1.23 2.00446 -3.669" radius="1.25" color="#EF2D5E" material="color: #010a51; blending: additive; emissive: #022f5a; metalness: 1; metalnessTextureOffset: 1 1; wireframe: true" geometry="radius: 0.5" visible="" animation="property: rotation;  to: 0 360 0; loop: true; dur: 5000"></a-sphere>
                 <a-cylinder position="1.23 0.75 -3.669" radius="0.5" height="1.5" color="#FFC65D" material="color: #ffcd1a" geometry=""></a-cylinder>
                 
                 <!--<a-sky color="#ECECEC" material="color: #cbeefb; shader: standard" geometry=""></a-sky>-->
